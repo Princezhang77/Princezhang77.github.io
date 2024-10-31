@@ -20,9 +20,6 @@ TransforMatcher 是一个基于 Transformer 的端到端模型，用于图像关
 
 **参考**：[TransforMatcher Paper](https://arxiv.org/abs/2101.09502)
 
-#### 代码：
-你可以查找 TransforMatcher 的开源实现，有一些代码库已经实现了这个模型，适合用于图像匹配任务。
-
 ### 2. **LoFTR (Local Feature Transformer)**
 LoFTR 是一个无特征描述符的局部特征匹配方法，它专门用于图像对图像的局部区域匹配。LoFTR 使用了一种基于 Transformer 的架构，它直接在图像网格上进行操作，而不是依赖传统的特征点（如 SIFT 或 ORB），通过全局和局部注意力找到两幅图像的对应关系。
 
@@ -32,9 +29,6 @@ LoFTR 是一个无特征描述符的局部特征匹配方法，它专门用于�
 - 适用于图像配准、视觉定位、3D重建等任务。
 
 **参考**：[LoFTR Paper](https://arxiv.org/abs/2104.00680)
-
-#### 代码：
-LoFTR 已有开源实现，你可以在 GitHub 上找到官方代码库，并尝试应用到你的图像匹配任务中。
 
 **开源代码**：[LoFTR GitHub](https://github.com/zju3dv/LoFTR)
 
@@ -48,9 +42,6 @@ DINO 是一种自监督学习的 Vision Transformer 模型，它不仅用于图�
 
 **参考**：[DINO Paper](https://arxiv.org/abs/2104.14294)
 
-#### 代码：
-DINO 的实现也可以用于视觉任务，你可以通过开源代码库来实现图像的区域匹配。
-
 **开源代码**：[DINO GitHub](https://github.com/facebookresearch/dino)
 
 ### 4. **SuperGlue**
@@ -63,13 +54,10 @@ DINO 的实现也可以用于视觉任务，你可以通过开源代码库来实
 
 **参考**：[SuperGlue Paper](https://arxiv.org/abs/1911.11763)
 
-#### 代码：
-SuperGlue 也有开源实现，你可以结合它与传统的局部特征提取器一起使用。
-
 **开源代码**：[SuperGlue GitHub](https://github.com/magicleap/SuperGluePretrainedNetwork)
 
 ### 总结：
-如果你想在两张图像中找到相似的区域，可以考虑以下几种 Transformer 模型：
+
 - **TransforMatcher**：适用于图像匹配的跨注意力机制。
 - **LoFTR**：无描述符局部特征匹配，强大且高效。
 - **DINO**：自监督学习的 Transformer，用于发现图像中的相似区域。
