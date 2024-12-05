@@ -1,4 +1,13 @@
-**`loss.backward()`** 对你的自定义 encoder 仍然是有效的，只要你的自定义 encoder 是用 PyTorch 实现的，并且与 CLIP 的编码器集成在同一个计算图中。那么在训练过程中，对比学习的梯度可以正常地反向传播到你的自定义 encoder。
+---
+layout:     post
+title:      "基于Vision Transformer进行相关区域匹配的方法"
+subtitle:   "Vision Transformer"
+date:       2024-10-31 下午1:59
+author:     "Ellie"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Life
+---
 
 ### 条件
 为了确保梯度能够传递到自定义 encoder，需要满足以下条件：
