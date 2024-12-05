@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "基于Vision Transformer进行相关区域匹配的方法"
-subtitle:   "Vision Transformer"
+title:      "Pytorch中的backward()函数使用技巧"
+subtitle:   "loss.backward()"
 date:       2024-10-31 下午1:59
 author:     "Ellie"
 header-img: "img/post-bg-2015.jpg"
