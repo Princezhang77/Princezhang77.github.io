@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      "微调CLIP的对比学习训练任务"
+subtitle:   "CLIP"
+date:       2024-10-31 下午1:59
+author:     "Ellie"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Life
+---
 1. 数据对数量的影响因素
 
 模型初始表现：
